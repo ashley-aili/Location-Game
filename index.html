@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    	<!--meta name="viewport" content="width=device-width, height=device-height, user-scalable=yes,
+		shrink-to-fit=yes, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" /-->
+    <title>AIRPORT BINGO</title>
+    <script src="libraries/p5.js" type="text/javascript"></script>
+
+    <script src="libraries/p5.dom.js" type="text/javascript"></script>
+    <script src="libraries/p5.sound.js" type="text/javascript"></script>
+
+    <script src="sketch.js" type="text/javascript"></script>
+
+    <style> 
+    body {padding: 0; margin: 0; background-image: url("clouds2.jpg"); background-size: "device-height";} 
+    canvas {vertical-align: top;} 
+    .game {display: block; margin-left: auto; margin-right: auto; border: none;}
+    .form {display: block; margin-left: auto; margin-right: auto; }
+    form, input,textarea,label {display: block; margin-left: auto; margin-right: auto; width: 60%;}
+   
+    </style>
+  
+  </head>
+  <body>
+  		<iframe src="https://bingobaker.com/play/1446136" name="bingoGame" class="game" scrolling="yes" width="90%" height="600">
+    </iframe>
+    <div class="form">
+    <form action="list.php" method="get">
+    	<label for="firstname">First name:</label> <br>
+  		<input type="text" name="firstname"><br>
+    	<label for="airport">Airport:</label> <br>
+  		<input type="text" name="airport"><br><br>
+  		<textarea name="message" rows="10" cols="10">
+What cool thing did you see at this airport?
+			</textarea> <br>
+  		<input type="submit" value="Submit">
+		</form>
+    </div>
+    
+    
+  </body>
+</html>

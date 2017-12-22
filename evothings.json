@@ -1,0 +1,14 @@
+{
+  "uuid": "3b97bafd-bb2c-46e2-9337-e156a472618f",
+  "name": "location-game-airport-bingo",
+  "title": "Bingo",
+  "description": "Play Bingo at the airport",
+  "long-description": "App long description.",
+  "version": "",
+  "author-name": "Evothings",
+  "author-email": "build@evothings.com",
+  "author-url": "https://evothings.com",
+  "cordova-id": "com.evothings.samples.Location.Game",
+  "plugins": [],
+  "libraries": []
+}
